@@ -7,3 +7,6 @@
 3. Take the user journey
 4. Emphasize doing over watching
 
+#Outline
+1. sign-up
+2. setup development environment
