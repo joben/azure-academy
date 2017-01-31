@@ -10,3 +10,8 @@
 #Outline
 1. sign-up
 2. setup development environment
+
+#setup your cloud infrastructure
+1. create your vnet
+2. create storage 
+3. understanding resource groups
