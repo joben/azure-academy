@@ -1,0 +1,18 @@
+#Overview
+https://docs.microsoft.com/en-us/azure/Virtual-Network/virtual-networks-overview
+
+##Azure Networking for AWS Professionals
+(similar to this one from Google https://cloud.google.com/docs/compare/aws/networking)
+https://docs.microsoft.com/en-us/azure/guidance/azure-for-aws-professionals
+https://docs.microsoft.com/en-us/azure/guidance/guidance-azure-for-aws-professionals-service-map#networking-services
+
+##Before you get started
+https://docs.microsoft.com/en-us/azure/guidance/guidance-naming-conventions
+
+itd-test-vnet
+
+#Hands On
+1. Reference Network Design
+2. Creating a VNet (CLI)
+https://docs.microsoft.com/en-us/azure/Virtual-Network/virtual-networks-create-vnet-arm-cli
+
