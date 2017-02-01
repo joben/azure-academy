@@ -18,6 +18,6 @@ az vm create -n dev-win-vm01 -g dx-hacks-rg -l southeastasia \
 --admin-username joben --admin-password Pass@word1 \
 --image 2016-Datacenter \
 --size Standard_D11_v2 --storage-acount dxhackswinsvr01st  \
---vnet-name dx-hacks-vnet --subnet workstations \
+--vnet-name dx-hacks-vnet --subnet-name workstations \
 --public-ip-address dxdev01-pip --public-ip-address-dns-name dxhacksdev01
 ```
