@@ -1,3 +1,4 @@
+
 #Creating Virtual Machines on Azure
 
 #How to
@@ -20,4 +21,9 @@ az vm create -n dev-win-vm01 -g dx-hacks-rg -l southeastasia \
 --size Standard_D11_v2 --storage-account dxhackswinsvr01st  \
 --vnet dx-hacks-vnet --subnet-name workstations \
 --public-ip-address dxdev01-pip --public-ip-address-dns-name dxhacksdev01
+```
+Check on the status of the VM
+
+```Shell
+az vm get-instance-view -n dev-win-vm01 -g dx-hacks-rg --query instanceView.statuses[1]
 ```
