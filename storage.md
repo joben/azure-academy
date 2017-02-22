@@ -14,14 +14,21 @@ az storage account create -g dx-hacks-rg -n dxhackswinsvr01st -l southeastasia
 ```
 
 File Shares
-Mounting on Windows Server
 
+Windows
+
+Persisting file share mount on windows vm
+https://docs.microsoft.com/en-us/azure/storage/storage-dotnet-how-to-use-files
+cmdkey /add:<storage-account-name>.file.core.windows.net /user:<storage-account-name> /pass:<storage-account-key>
+
+Mounting Fileshares in an Azure Windows VM
 net use <drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name>
 
 example :
 net use z: \\samples.file.core.windows.net\logs
 
+Linux
 
-persisting file share mount on windows vm
-https://docs.microsoft.com/en-us/azure/storage/storage-dotnet-how-to-use-files
-cmdkey /add:<storage-account-name>.file.core.windows.net /user:<storage-account-name> /pass:<storage-account-key>
+
+
+
