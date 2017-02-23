@@ -29,3 +29,14 @@ Check on the status of the VM
 ```Shell
 az vm get-instance-view -n dev-win-vm01 -g dx-hacks-rg --query instanceView.statuses[1].code
 ```
+List # of disks of the VM
+
+```Shell
+az vm disk list --vm-name dev-win-vm01 -g dx-hacks-rg 
+```
+
+Add an additional disk to the VM to store persistent data
+
+```Shell
+az vm disk attach-new --vm-name dev-win-vm01 -g dx-hacks-rg --vhd https://dxhacksfs.blob.core.windows.net/vhd/dev-win-vm01-d000.vhd --disk-size 1023
+```
