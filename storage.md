@@ -33,6 +33,7 @@ net use z: \\\\samples.file.core.windows.net\logs
 
 Linux
 
-
+Best practice for optimal storage performance in vms
+https://blogs.msdn.microsoft.com/mast/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance/
 
 
