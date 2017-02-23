@@ -28,7 +28,7 @@ Mounting Fileshares in an Azure Windows VM
 net use <drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name>
 
 example :
-net use z: \\samples.file.core.windows.net\logs
+net use z: \\\\samples.file.core.windows.net\logs
 
 Linux
 
