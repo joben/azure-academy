@@ -19,7 +19,10 @@ Windows
 
 Persisting file share mount on windows vm
 https://docs.microsoft.com/en-us/azure/storage/storage-dotnet-how-to-use-files
-cmdkey /add:<storage-account-name>.file.core.windows.net /user:<storage-account-name> /pass:<storage-account-key>
+
+```shell
+cmdkey /add:<storage-account-name>.file.core.windows.net /user:AZURE\<storage-account-name> /pass:<storage-account-key>
+```
 
 Mounting Fileshares in an Azure Windows VM
 net use <drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name>
