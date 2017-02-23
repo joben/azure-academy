@@ -40,3 +40,8 @@ Add an additional disk to the VM to store persistent data
 ```Shell
 az vm disk attach-new --vm-name dev-win-vm01 -g dx-hacks-rg --vhd https://dxhacksfs.blob.core.windows.net/vhd/dev-win-vm01-d000.vhd --disk-size 1023
 ```
+Remove an attached disk from the vm
+
+```Shell
+az vm disk detach -g dx-hacks-rg --vm-name dev-win-vm01 --name dev-win-vm01-d000
+```
