@@ -25,8 +25,9 @@ cmdkey /add:<storage-account-name>.file.core.windows.net /user:AZURE\<storage-ac
 ```
 
 Mounting Fileshares in an Azure Windows VM
-net use <drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name>
-
+```Shell
+net use <drive-letter>: \\\\<storage-account-name>.file.core.windows.net\<share-name>
+```
 example :
 net use z: \\\\samples.file.core.windows.net\logs
 
