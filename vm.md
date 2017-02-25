@@ -49,6 +49,5 @@ az vm disk detach -g dx-hacks-rg --vm-name dev-win-vm01 --name dev-win-vm01-d000
 az vm create -n dev-vm-cent01 -g dx-hacks-rg --image OpenLogic:CentOS:7.3:7.3.20161221 \
         --authentication-type ssh --vnet dx-hacks-vnet --subnet-name workstations \
         --size Standard_D11_v2 --storage-account dxhackslinux01st \
-        --public-ip-address dxdev01-pip --public-ip-address-dns-name dxhacksdev02 \
-        
+        --public-ip-address dxdev02-pip --public-ip-address-dns-name dxhacksdev02         
 ```
