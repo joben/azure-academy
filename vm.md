@@ -72,5 +72,7 @@ az vm create -n dev-vm-cent01 -g dx-hacks-rg --image OpenLogic:CentOS:7.3:7.3.20
         --size Standard_D11_v2 --storage-account dxhackslinux01st \
         --public-ip-address dxdev03-pip --public-ip-address-dns-name dxhacksdev03         
 ```
-
+```Shell
+az vm list-sizes -l southeastasia --output json --query '[?numberOfCores > `2`].{name:name, cores:numberOfCores}' --output table
+```
 
