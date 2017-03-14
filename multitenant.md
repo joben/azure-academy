@@ -10,4 +10,6 @@ https://github.com/Azure-Samples/active-directory-dotnet-webapp-multitenant-open
 ##SQL Database
 https://docs.microsoft.com/en-us/azure/sql-database/sql-database-design-patterns-multi-tenancy-saas-applications
 
+##PowerBI
 
+https://docs.microsoft.com/en-us/azure/power-bi-embedded/power-bi-embedded-rls
