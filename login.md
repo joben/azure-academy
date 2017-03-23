@@ -8,8 +8,12 @@ az login -u <username> -p <password>
 
 #Azure accounts
 1. View subscriptions associated with your user account
+
+```Shell
 az account list
+```
 
 2. Set your default azure account
+```Shell
 az account set --subscription $(az account list --query "[1].id" --output tsv)
-
+```
